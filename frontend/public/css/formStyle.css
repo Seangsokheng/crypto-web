@@ -1,0 +1,234 @@
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
+
+.white{
+  color: white;
+}
+/* Global background and container style */
+/* .crypto-dashboard {
+  background: linear-gradient(135deg, #1f1f1f, #0d0d0d);
+  color: #e5e5e5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.auth-info {
+  color: #e5e5e5;
+}
+
+.user-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #e5e5e5;
+}
+
+.btn-outline-light {
+  border-color: #e5e5e5;
+  color: #e5e5e5;
+}
+
+.btn-outline-light:hover {
+  background-color: #e5e5e5;
+  color: #0d0d0d;
+}
+
+.table {
+  background-color: #1f1f1f;
+  border-radius: 10px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #2d2d2d;
+}
+
+.table-striped tbody tr:hover {
+  background-color: #3a3a3a;
+}
+
+.thead-dark th {
+  background-color: #333;
+  color: #e5e5e5;
+}
+
+.form-control {
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+  color: #e5e5e5;
+}
+
+.form-control::placeholder {
+  color: #888;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background-color: #f4f5f7;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+h2 {
+  color: #007bff;
+} */
+/* General body styling */
+body {
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text for contrast */
+    font-family: 'Arial', sans-serif;
+    background-image: url('../img/Designs_1_09.jpg'); /* Add background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Container for the crypto dashboard */
+.crypto-dashboard {
+    background-color: rgba(0, 0, 0, 0.85); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Header styles */
+.crypto-dashboard header h2 {
+    color: #f0b90b; /* Binance yellow */
+}
+
+.auth-info img.user-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #f0b90b; /* Binance yellow border */
+}
+
+.auth-info .btn-outline-light {
+    border-color: #f0b90b;
+    color: #f0b90b;
+}
+
+.head{
+  color: #f0b90b;
+}
+
+.auth-info .btn-outline-light:hover {
+    background-color: #f0b90b;
+    color: #121212;
+}
+
+/* Card for individual cryptocurrencies */
+ .cardd {
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+ .cardd:hover {
+    transform: translateY(-5px);
+}
+
+ .card-body {
+    text-align: center;
+    color: #f0b90b; /* Text to match Binance theme */
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.cardd h5 {
+    font-size: 1.25rem;
+    color: #f0b90b;
+}
+
+/* Price change: green for positive, red for negative */
+.cardd p {
+    color: #fff;
+}
+
+.cardd p .price-change-up {
+    color: #4caf50; /* Green for price increase */
+}
+
+.cardd p .price-change-down {
+    color: #f44336; /* Red for price decrease */
+}
+
+/* Search bar styling */
+.form-control {
+    background-color: #2c2c2c;
+    border: 1px solid #f0b90b;
+    color: #f0b90b;
+}
+
+.form-control::placeholder {
+    color: #f0b90b;
+}
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Adjust as needed */
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+  color: #ffd700; /* Yellow color for the Binance theme */
+}
+.coin-logo {
+  width: 40px;  /* Set the width */
+  height: 40px; /* Set the height */
+  object-fit: contain; /* To prevent stretching */
+  margin-right: 10px; /* Add some space to the right */
+}
+
+h2 {
+  color: #f0b90b;
+}
+
+button {
+  background-color: #18181a;
+  border: 1px solid #f0b90b;
+  color: #f0b90b;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0b90b;
+  color: #18181a;
+}
+
+.chart-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #282828;
+  border-radius: 8px;
+}
+.noBlue{
+  text-decoration: none;
+}
