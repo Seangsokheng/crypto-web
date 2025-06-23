@@ -12,6 +12,7 @@
 /build
 node_modules/
 .env
+crypto.sql
 
 # misc
 .DS_Store
